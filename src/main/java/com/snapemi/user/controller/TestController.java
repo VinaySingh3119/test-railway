@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "*")
 public class TestController {
 
-   
+   @RestController("/test")
     public String test() {
         return "Backend is working";
     }
